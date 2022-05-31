@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    padding: 0; margin: 0;
+}
+body{
+    background-color: rgb(241, 240, 240);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.bgnav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(226, 6, 6);
+}
+.midnav{
+    display: flex;
+}
+.tn{
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    padding: 10px;
+}
+.tn a{
+    text-decoration: none;
+    color: white;
+}
+.tn:hover{
+    cursor: pointer;
+    background-color: rgb(36, 35, 35);
+}
+#bgface{
+    display: flex;
+    justify-content: center;
+}
+#face{
+ 
+    max-width: 700px;
+}
+#face img{
+    float: left;
+margin-right: 10px;
+}
+
+#face p{
+    font-size: 22px;
+}
+.name{
+    padding: 20px 0;
+    text-align: center;
+}
+#bghob{
+    display: flex;
+    justify-content: center;
+    
+}
+#hob{
+    max-width: 700px;
+    padding: 20px 0 0 0;
+    font-size: 17px;
+}
+.btn{
+    padding:40px 0 30px 0 ;
+    display: flex;
+    justify-content: center;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.btn button{
+    padding: 20px;
+    font-weight: 600;
+    font: 30px;
+background-color: #04AA6D;
+border-style: none;
+border-radius: 10px;
+}
+.btn button:hover{
+    background-color: rgb(226, 6, 6);
+    cursor: pointer;
+}
+
+
+/* Contact page */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+      display: flex;
+      justify-content: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+.container div{
+    max-width: 500px;
+}
+
+/*END OF CONTACT */
+
+
+/*REG PAGE */
+input[type=tel], input[type=email], input[type=password], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  .twocolz{
+      display: flex;
+  }
+.twocol {
+    display: inline-block;
+}
+#colz, #colzz{
+    display: flex;
+    flex-direction: column;
+}
+
+
+  /* login page */
+ #log{
+     max-width: 300px;
+   
+ }
+  .bnt{
+    display: flex;
+    justify-content: center;
+}
+.bnt input{
+    width: 100%;
+    font-size: 18px;
+}
+.ft{
+font-size: 21px;
+}
